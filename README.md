@@ -1,2 +1,2 @@
-rpi_breathalyzer
+Raspberry Pi Breathalyzer
 ================
