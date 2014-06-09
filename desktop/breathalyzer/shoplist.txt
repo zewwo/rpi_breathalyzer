@@ -1,0 +1,14 @@
+Raspberry Pi Model B							$39.95						http://www.adafruit.com/products/998
+LCD												$17.95						http://www.adafruit.com/products/198	
+LCD Backpack									$10.00						http://www.adafruit.com/products/292
+16-bit ADC										$14.95						http://www.adafruit.com/products/1085
+
+T-Cobbler Breakout Kit							$11.60						http://www.active123.com/AF1105-TCobbler-Breakout-Board-for-Raspberry-Pi-Prodview.html
+												$7.95						http://www.adafruit.com/products/1754
+												
+Buttons											$7.60	xN					http://www.active123.com/45610210-Push-Button-Miniature-Switch-SPST-1A-OnOff-Red-Cap-Pkg10-Prodview.html
+												$1.50	xN					http://www.adafruit.com/products/1439
+												
+Alcohol Sensor									$6.90						http://www.futurlec.com/Gas_Sensors.shtml
+							
+TOTAL											$89.70 ( + ADAFRUIT SHIPPING [21.75] + SENSOR SHIPPING [4] + $7.60/$1.50 * N + T-COBBLER CHOICE )
