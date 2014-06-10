@@ -18,7 +18,7 @@ bLCD = AdafruitLcd()					' LCD object
 
 
 while True:
-	print "\nW = Pin 17 HIGH\t L = Test LCD\n S = Pin 17 LOW\t A = Test Read"
+	print "\nW = Pin 17 HIGH\t L = Test LCD\n S = Pin 17 LOW\t A = Test Read\nQ = Quit\n"
 	
 	input = raw_input("Enter Input: ")
 	
@@ -37,4 +37,6 @@ while True:
 	elif input.tolower() == "a":
 		'test read
 		'volts = adc.readADCSingleEnded(0,gain,sps) / 1000
+	elif input.tolower() == "q":
+		break
 	
