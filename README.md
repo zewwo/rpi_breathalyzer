@@ -7,11 +7,7 @@ A breathalyzer is created by using a Raspberry Pi microcontroller and an alcohol
 ### What is a breathalyzer?
 A breathalyzer allows a person to view their BAC to determine if they are past the standard BAC or not. This is widely used by police officers in every country.
 
-
-
 ---
-
-
 
 Materials Used and Links
 <blank>
@@ -23,3 +19,7 @@ Materials Used and Links
 * __16mm Illuminated Pushbutton - Red Momentary__ ( http://www.adafruit.com/products/1439 )
 * __16mm Illuminated Pushbutton - Blue Momentary__ ( http://www.adafruit.com/products/1477 )
 * __MQ-3 Alcohol Sensor__ ( https://www.sparkfun.com/products/8880 )
+
+---
+
+Special thanks to __Matt Lang__ and __Kyle Snihur__ for their capstone project. This project is based off their project in the 2014 Capstone course at NAIT.
