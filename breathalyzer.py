@@ -1,11 +1,12 @@
 ''
 #######################################################
 # Program : breathalyzer.py
-# Description :
+# Description : A script that allows the user to view their blood alcohol content with the MQ-3 alcohol sensor.
+#
 # History
 # ---------------------------------
-# Author Date Comment
-# Kevin 06.01.14
+# Author	Date 		Comment
+# Kevin 	06.01.14
 #######################################################
 ''
 
