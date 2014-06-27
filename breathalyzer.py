@@ -32,7 +32,7 @@ GPIO.setup(bButton, GPIO.IN)
 ADS115 = 0x01								# 16-bit ADC ADS115
 gain = 4096								# +/- 4.096V
 sps = 250								# samples per second
-#adc = ADS1x15(ic=ADS115)						# initialize ADC with default I2C
+adc = ADS1x15(ic=ADS115)						# initialize ADC with default I2C
 
 bLCD = AdafruitLcd()							# LCD object
 
@@ -62,9 +62,13 @@ while input.lower() != "q":
 			bLCD.clear()
 			bLCD.message(lcdInput)
 			sleep(0.5)
-	#elif input.lower() == "a":					# MQ3 alcohol sensor test
-		#print "\nsensor reading test"
-		#volts = adc.readADCSingleEnded(0,gain,sps) / 1000
+	elif input.lower() == "a":					# MQ3 alcohol sensor test
+		print "Reading volts for 10s"
+		seconds = 0
+		while seconds < 10000:
+			volts = adc.readADCSingleEnded(0,gain,sps) / 1000
+			print volts
+		print "Ending volt reading. Returning to menu."
 	elif input.lower() == "b":					# button test
 		print "\nRED BUTTON -> TEST PRINT -- BLUE BUTTON -> EXIT TEST"
 		#GPIO.output(rButton, True)
@@ -77,7 +81,6 @@ while input.lower() != "q":
 				sleep(0.5)				# debouncing
 		print "Blue is Pressed!"
 
-		
 	sleep(0.1)
 
 GPIO.output(fLED, False)						# turn off existing LEDs
