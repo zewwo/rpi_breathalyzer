@@ -68,6 +68,7 @@ while input.lower() != "q":
 		while seconds < 10000:
 			volts = adc.readADCSingleEnded(0,gain,sps) / 1000
 			print volts
+			seconds += 1
 		print "Ending volt reading. Returning to menu."
 	elif input.lower() == "b":					# button test
 		print "\nRED BUTTON -> TEST PRINT -- BLUE BUTTON -> EXIT TEST"
