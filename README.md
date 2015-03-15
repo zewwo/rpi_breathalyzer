@@ -1,5 +1,8 @@
 Raspberry Pi Breathalyzer
 ================
+Created by Kevin Nguyen
+
+**This project is currently on-hold and will begin again later in 2015**
 
 A breathalyzer is created by using a Raspberry Pi microcontroller and an alcohol sensor. By converting the voltage taken in by the alcohol sensor and converting it to a blood alcohol content (BAC), it allows a user to see the content.
 
@@ -22,4 +25,6 @@ Materials Used and Links
 
 ---
 
-Special thanks to __Matt Lang__ and __Kyle Snihur__ for their capstone project. This project is based off their project in the 2014 Capstone course at NAIT.
+Special thanks to __Matt Lang__ and __Kyle Snihur__ for their capstone project. 
+
+This project is based off their project in the 2014 Capstone course at NAIT.
