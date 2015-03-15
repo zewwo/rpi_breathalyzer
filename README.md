@@ -1,6 +1,6 @@
 Raspberry Pi Breathalyzer
 ================
-Created by Kevin Nguyen
+*Created by Kevin Nguyen*
 
 **This project is currently on-hold and will begin again later in 2015**
 
